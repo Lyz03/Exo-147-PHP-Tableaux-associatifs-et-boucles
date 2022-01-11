@@ -33,4 +33,8 @@ echo "Je dors enfin...<br><br>";
 
 
 // TODO Votre code ici !
-
+$nbVache = 1;
+while ($nbVache <= 25) {
+    echo $nbVache. " vache(s) <br>";
+    $nbVache++;
+}
